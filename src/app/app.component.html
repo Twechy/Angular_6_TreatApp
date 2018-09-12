@@ -1,6 +1,9 @@
-<div>
-  <app-main-nav></app-main-nav>
+<div class="material-container" fxLayout="column" *ngIf="isLoggedIn$">
+  <div fxFlex="100%">
+    <app-main-nav></app-main-nav>
+  </div>
+  <div fxFlex="100%" fxFlexFill>
+    <router-outlet></router-outlet>
+  </div>
 </div>
-<div>
-  <router-outlet></router-outlet>
-</div>
+<ng-http-loader></ng-http-loader>

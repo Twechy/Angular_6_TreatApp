@@ -7,6 +7,7 @@ export interface EmpLimit {
   id: number;
   familyStatus: string;
   empLimit: number;
+
 }
 
 export interface RelativeList {
@@ -16,7 +17,7 @@ export interface RelativeList {
   status: string;
 }
 
-export interface EmpViewModel {
+export interface IEmpViewModel {
   id: number;
   indexId: number;
   socialNumber: number;
@@ -24,7 +25,7 @@ export interface EmpViewModel {
   phone: string;
   dep: Dep;
   empLimit: EmpLimit;
-  accountName?: any;
+  bankName?: any;
   accountNum?: any;
   relativeList: RelativeList[];
 }

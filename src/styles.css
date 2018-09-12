@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import "../node_modules/material-design-icons/iconfont/material-icons.css";
 @import "~font-awesome/css/font-awesome.css";
 
 html, body {
@@ -8,18 +9,23 @@ html, body {
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Cairo, sans-serif;
 }
 
-html, body {
-  height: 100%;
+/* cairo-regular - arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cairo'), local('Cairo-Regular'),
+  url('../src/assets/cairo-v4-arabic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../src/assets/cairo-v4-arabic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-}
-
-body {
-  margin: 0;
+/* cairo-600 - arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Cairo SemiBold'), local('Cairo-SemiBold'),
+  url('../src/assets/cairo-v4-arabic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../src/assets/cairo-v4-arabic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

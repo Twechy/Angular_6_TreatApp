@@ -1,4 +1,4 @@
-﻿export interface Response {
+﻿export interface UserResponse {
   id: number;
   userName: string;
   email: string;
@@ -6,9 +6,4 @@
   providerName?: any;
 }
 
-export interface LoginResponse {
-  status: number;
-  message: string;
-  userResponse: Response;
-}
 
