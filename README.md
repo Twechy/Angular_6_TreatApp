@@ -1,5 +1,7 @@
 # ClientApp
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Twechy/Angular_6_TreatApp.svg)](https://greenkeeper.io/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
 
 ## Development server
